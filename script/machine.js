@@ -1,0 +1,1 @@
+// jani nah agamite ai project er shathe agate parbo kina I am tired. support session off silo. ar iss kore submit btn a click kore skip likhe felesi fb te post dekhe je agamite 60 mark a answer dewa jabe tai maira disilam ar poresi bipode akhon 5ta jems khubano sara ar kono upay nai. ar jibone airokom bash na khai kokhono.
