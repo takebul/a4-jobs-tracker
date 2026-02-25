@@ -59,7 +59,7 @@
         <section>
             <div class="flex justify-between">
                 <h3 class="text-xl font-semibold">Available Jobs</h3>
-                <p class="font-medium text-gray-600"><span id="total-count-job">0</span> jobs</p>
+                <p class="font-medium text-gray-600"><span id="interviewCount" class="hidden">0 </span><span id="rejectedCount" class="hidden">0 </span><span id="of-text" class="hidden"> of </span><span id="total-count-job">0</span> jobs</p>
             </div>
             <div class="flex gap-3 pt-6 pb-4">
 
@@ -87,7 +87,7 @@
         <section id="all-cards" class="space-y-5">
 
             <!-- card 1 -->
-            <div class="space-y-5 bg-base-100 p-6 rounded-md">
+            <div class="company-card space-y-5 bg-base-100 p-6 rounded-md">
 
                 <div class="flex justify-between items-center">
                     <div>
@@ -95,7 +95,7 @@
                         <p class="skills text-gray-500">React Native Developer</p>
                     </div>
                     <div>
-                        <button id="delete-btn" class="btn btn-soft rounded-full"><i
+                        <button class="delete-btn btn btn-soft rounded-full"><i
                                 class="fa-regular fa-trash-can"></i></button>
                     </div>
                 </div>
@@ -122,7 +122,7 @@
 
 
             <!-- card 2 -->
-            <div class="space-y-5 bg-base-100 p-6 rounded-md">
+            <div class="company-card space-y-5 bg-base-100 p-6 rounded-md">
 
                 <div class="flex justify-between items-center">
                     <div>
@@ -130,7 +130,7 @@
                         <p class="skills text-gray-500">Web Designer & Developer</p>
                     </div>
                     <div>
-                        <button class="btn btn-soft rounded-full"><i class="fa-regular fa-trash-can"></i></button>
+                        <button class="delete-btn btn btn-soft rounded-full"><i class="fa-regular fa-trash-can"></i></button>
                     </div>
                 </div>
 
@@ -156,7 +156,7 @@
 
 
             <!-- card 3 -->
-            <div class="space-y-5 bg-base-100 p-6 rounded-md">
+            <div class="company-card space-y-5 bg-base-100 p-6 rounded-md">
 
                 <div class="flex justify-between items-center">
                     <div>
@@ -164,7 +164,7 @@
                         <p class="skills text-gray-500">Data Visualization Specialist</p>
                     </div>
                     <div>
-                        <button class="btn btn-soft rounded-full"><i class="fa-regular fa-trash-can"></i></button>
+                        <button class="delete-btn btn btn-soft rounded-full"><i class="fa-regular fa-trash-can"></i></button>
                     </div>
                 </div>
 
@@ -192,7 +192,7 @@
 
 
             <!-- card 4 -->
-            <div class="space-y-5 bg-base-100 p-6 rounded-md">
+            <div class="company-card space-y-5 bg-base-100 p-6 rounded-md">
 
                 <div class="flex justify-between items-center">
                     <div>
@@ -200,7 +200,7 @@
                         <p class="skills text-gray-500">Backend Developer</p>
                     </div>
                     <div>
-                        <button class="btn btn-soft rounded-full"><i class="fa-regular fa-trash-can"></i></button>
+                        <button class="delete-btn btn btn-soft rounded-full"><i class="fa-regular fa-trash-can"></i></button>
                     </div>
                 </div>
 
@@ -226,7 +226,7 @@
 
 
             <!-- card 5 -->
-            <div class="space-y-5 bg-base-100 p-6 rounded-md">
+            <div class="company-card space-y-5 bg-base-100 p-6 rounded-md">
 
                 <div class="flex justify-between items-center">
                     <div>
@@ -234,7 +234,7 @@
                         <p class="skills text-gray-500">UI/UX Engineer</p>
                     </div>
                     <div>
-                        <button class="btn btn-soft rounded-full"><i class="fa-regular fa-trash-can"></i></button>
+                        <button class="delete-btn btn btn-soft rounded-full"><i class="fa-regular fa-trash-can"></i></button>
                     </div>
                 </div>
 
@@ -261,7 +261,7 @@
 
 
             <!-- card 6 -->
-            <div class="space-y-5 bg-base-100 p-6 rounded-md">
+            <div class="company-card space-y-5 bg-base-100 p-6 rounded-md">
 
                 <div class="flex justify-between items-center">
                     <div>
@@ -269,7 +269,7 @@
                         <p class="skills text-gray-500">JavaScript Developer</p>
                     </div>
                     <div>
-                        <button class="btn btn-soft rounded-full"><i class="fa-regular fa-trash-can"></i></button>
+                        <button class="delete-btn btn btn-soft rounded-full"><i class="fa-regular fa-trash-can"></i></button>
                     </div>
                 </div>
 
@@ -297,7 +297,7 @@
 
 
             <!-- card 7 -->
-            <div class="space-y-5 bg-base-100 p-6 rounded-md">
+            <div class="company-card space-y-5 bg-base-100 p-6 rounded-md">
 
                 <div class="flex justify-between items-center">
                     <div>
@@ -305,7 +305,7 @@
                         <p class="skills text-gray-500">Full Stack Engineer/p>
                     </div>
                     <div>
-                        <button class="btn btn-soft rounded-full"><i class="fa-regular fa-trash-can"></i></button>
+                        <button class="delete-btn btn btn-soft rounded-full"><i class="fa-regular fa-trash-can"></i></button>
                     </div>
                 </div>
 
@@ -332,7 +332,7 @@
 
 
             <!-- card 8 -->
-            <div class="space-y-5 bg-base-100 p-6 rounded-md">
+            <div class="company-card space-y-5 bg-base-100 p-6 rounded-md">
 
                 <div class="flex justify-between items-center">
                     <div>
@@ -340,7 +340,7 @@
                         <p class="skills text-gray-500">Senior Frontend Developer</p>
                     </div>
                     <div>
-                        <button class="btn btn-soft rounded-full"><i class="fa-regular fa-trash-can"></i></button>
+                        <button class="delete-btn btn btn-soft rounded-full"><i class="fa-regular fa-trash-can"></i></button>
                     </div>
                 </div>
 
@@ -370,13 +370,23 @@
 
         <!-- No jobs section -->
 
-        <section id="filtered-section" class="hidden">
+        <section id="interview-section" class="">
 
-            <div id="no-job-section" class="bg-base-100 justify-items-center py-20 space-y-1 rounded-sm">
+            
+        </section>
+        <div id="no-job-section" class="bg-base-100 justify-items-center py-20 space-y-1 rounded-sm hidden">
+            <img src="jobs.png" alt="">
+            <h2 class="text-2xl font-medium">No jobs available</h2>
+            <p>Check back soon for new job opportunities</p>
+        </div>
+
+        <section id="rejected-section" class="">
+
+            <!-- <div id="no-job-section" class="bg-base-100 justify-items-center py-20 space-y-1 rounded-sm hidden">
                 <img src="jobs.png" alt="">
                 <h2 class="text-2xl font-medium">No jobs available</h2>
                 <p>Check back soon for new job opportunities</p>
-            </div>
+            </div> -->
 
         </section>
 
