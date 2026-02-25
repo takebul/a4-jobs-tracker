@@ -81,17 +81,3 @@ event.stopPropagation();
 preventDefault() → Stops default browser behavior.
 stopPropagation() → Stops event bubbling.
 ---
-
-
-
-
-
-
-
-Ai milestone 4 a 60-65% er moto bujji ar ta onek kisui buji nai bishesh kore conceptual session gulay shomossha beshi hoitase.
-
-jani nah agamite kamon hoibe but pisoner gula akhon nijeke abar oi milestone dekhe recap korte hobe time manege korte kosto hoiyya jaitese.
-
-ar akta nijer vul hoise practice khub kom kora hoise ar support session a join mote korai hoitase.
-
-sorry airokom ulta palta vabe submit korar jonno. kisu korar nai vul to hoiyya gase ar support session a nai akhon.
